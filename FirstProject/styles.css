@@ -1,0 +1,139 @@
+#container{
+    background-color: white;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+}
+
+#container > #upper > #bigHeading > #heading2{
+    color: palevioletred;
+}
+
+#container > #upper > #bigHeading > #heading3{
+    color: whitesmoke;
+}
+
+#container > #upper > #bigHeading{
+    display: flex;
+}
+
+#container > #navbar{
+    display: flex;
+    background-color: black;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+#container > #navbar > div{
+    width: 20%;
+    padding: 25px;
+    text-align: center;
+    border: 15px solid black; 
+}
+
+#container > #navbar > div > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#container > #navbar > div:hover{
+    background-color: white;
+}
+
+#container > #navbar > div:active{
+    background-color: white;
+}
+
+#container > #navbar > div > a:hover{
+    color: palevioletred;
+}
+
+#container > #navbar > div > a:active{
+    color: palevioletred;
+}
+
+#container > #down{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+#container > #down > #left{
+    width: 65%;
+    padding: 50px;
+}
+
+#container >#down > #right{
+    width: 35%;
+    padding: 50px;
+}
+
+#container > #down > #right > ul > li > a{
+    color: white;
+}
+
+h1{
+    font-weight: bold;
+}
+
+h2, h3, h4, h5, h6{
+    color: palevioletred;
+}
+
+#container > #down > #right > i{
+    color: palevioletred;
+}
+
+#container > #down > #left > h1{
+    color: palevioletred;
+}
+
+#container > #down > #left > #seg1{
+    display: flex;
+}
+
+#container > #down > #left > #seg1{ 
+    display: flex;
+    align-items: start;
+}
+
+#container > #down > #left > #seg1 > #img1{
+    width: 150px;
+    height:80px;
+}
+
+#container > #down > #left > #seg2{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container > #down > #left > #seg2 > #img2{
+    width: 150px;
+    height:80px;
+}
+
+#container > #down > #left > #seg3{ 
+    display: flex;
+    align-items: end;
+}
+
+#container > #down > #left > #seg3 > #img3{
+    width: 150px;
+    height:80px;
+}
+
+th, td{
+    border: 1px solid white;
+    padding-right: 50px;
+}
+
+th{
+    background-color: darkslategrey;
+}
+
+td{
+    background-color: grey;
+}
