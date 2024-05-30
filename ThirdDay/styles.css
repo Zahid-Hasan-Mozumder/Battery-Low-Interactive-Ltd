@@ -1,0 +1,107 @@
+body{
+    width: 100%;
+}
+
+.navbar > .container-fluid{
+    background-color: grey;
+}
+
+.img1{
+    width: 300px;
+    height: 350px;
+}
+
+.col-sm-6{
+    padding: 15%;
+}
+
+.col-6{
+    padding: 10% 15% 10% 5%;
+}
+
+.txt{
+    text-align: left;
+    position: relative;
+    left: 10%;
+}
+
+.viewAll{
+    text-align: right;
+    position: relative;
+    right: 10%;
+}
+
+.container > .row > .col{
+    background-color: rgb(213, 250, 238);
+    padding: 60px;
+}
+
+.img2{
+    width: 200px;
+    height: 150px;
+}
+
+.list-group > .list-group-item > .container > .row > .col{
+    padding: 0;
+    background-color: white;
+}
+
+.box{
+    position: relative;
+    top: 100px;
+    padding: 0 25% 0 25%;
+}
+
+.fw_txt{
+    text-align: center;
+}
+
+footer{
+    position: relative;
+    top: 200px;
+}
+
+.about{
+    padding: 0 5% 0 5%;
+}
+
+.main > .headline{
+    text-align: center;
+    padding: 5%;
+}
+
+.poster{
+    text-align: center;
+}
+
+.img3{
+    padding: 2% 15% 5% 15%;
+}
+
+/* For contact.html */
+
+.contactForm{
+    position: relative;
+    top: 100px;
+    left: 25%;
+    right: 25%;
+    padding: 10%;
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+/* For works.html */
+
+.loadingBarForm{
+    position: relative;
+    width: 100%;
+}
+
+.loadingBar{
+    position: absolute;
+    left: 42%;
+    top: 20%;
+}
